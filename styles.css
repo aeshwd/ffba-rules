@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #004d8c;
+    margin: 1rem 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .marquee {
+    font-size: 1rem;
+    background: #ffcc00;
+    color: #004d8c;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button.active {
+    background: #ffcc00;
+    color: #004d8c;
+  }
+  
+  button:not(.active) {
+    background: #eeeeee;
+    color: #333;
+  }
+  
+  .rules-container {
+    background: #004d8c;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .rules {
+    display: none;
+  }
+  
+  .rules.active {
+    display: block;
+  }
+  
+  .rules h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ffcc00;
+  }
+  
+  .rules ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .rules ul li {
+    margin: 0.8rem 0;
+    padding: 0.8rem;
+    background: #ffffff22;
+    border-radius: 5px;
+  }
+
+
+  #qaSection {
+    margin-top: 50px;
+    padding: 1.5rem;
+    background: #004d8c;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input, form textarea, form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #ffcc00;
+    color: #004d8c;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  form button:hover {
+    background: #e0b700;
+  }
+  
+  
